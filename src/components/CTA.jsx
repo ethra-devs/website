@@ -159,7 +159,7 @@ const Toast = () => {
     title: "Copied!",
     variant: "subtle",
     position: "bottom-right",
-    description: "",
+    description: "0xeC30d3de30195e7Ea52dB3691c27eA0E0403009D",
     duration: 555,
     isClosable: false,
     containerStyle: { width: ["10px", "415px"] },
@@ -168,7 +168,9 @@ const Toast = () => {
     <Button
       leftIcon={<Copy />}
       onClick={() => {
-        navigator.clipboard.writeText("");
+        navigator.clipboard.writeText(
+          "0xeC30d3de30195e7Ea52dB3691c27eA0E0403009D"
+        );
         toast();
       }}
       size={"md"}>
