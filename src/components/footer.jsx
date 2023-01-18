@@ -24,7 +24,7 @@ export default function Footer() {
           zIndex={5}
           pointerEvents={"all"}>
           <Stack direction={"row"} spacing={6} justify={"top"} align={"top"}>
-            <Link isExternal href={"https://twitter.com/TERATECH_ETH"}>
+            <Link isExternal href={"https://twitter.com/ETHRA_TECH"}>
               <IconButton
                 label={"Twitter"}
                 variant={"social"}
@@ -35,7 +35,9 @@ export default function Footer() {
             </Link>
             <Link
               isExternal
-              href={"https://medium.com/@TERATECH/teratech-85ad0a639817"}>
+              href={
+                "https://medium.com/@ethra_devs/ethra-scaling-contract-security-29b697182526"
+              }>
               <IconButton
                 label={"Medium"}
                 variant={"social"}

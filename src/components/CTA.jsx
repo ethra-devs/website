@@ -96,12 +96,12 @@ export const CTA = () => {
           <TabPanels>
             <TabPanel>
               <p>
-                <Center>10,000,000,000</Center>
+                <Center>44,444,444</Center>
               </p>
             </TabPanel>
             <TabPanel>
               <p>
-                <Center>20,000,000,000</Center>
+                <Center>88,888,888</Center>
               </p>
             </TabPanel>
             <TabPanel>
@@ -116,7 +116,7 @@ export const CTA = () => {
                   </Thead>
                   <Tbody>
                     <Tr>
-                      <Td isNumeric>2%</Td>
+                      <Td isNumeric>1%</Td>
                       <Td isNumeric>1%</Td>
                       <Td isNumeric>1%</Td>
                     </Tr>
@@ -159,7 +159,7 @@ const Toast = () => {
     title: "Copied!",
     variant: "subtle",
     position: "bottom-right",
-    description: "0xdb1edddd001cd0003a1f89e890b6174cdb8c020e",
+    description: "",
     duration: 555,
     isClosable: false,
     containerStyle: { width: ["10px", "415px"] },
@@ -168,9 +168,7 @@ const Toast = () => {
     <Button
       leftIcon={<Copy />}
       onClick={() => {
-        navigator.clipboard.writeText(
-          "0xdb1edddd001cd0003a1f89e890b6174cdb8c020e"
-        );
+        navigator.clipboard.writeText("");
         toast();
       }}
       size={"md"}>
